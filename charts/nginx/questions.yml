@@ -9,6 +9,7 @@ questions:
         type: hostname
         required: true
         label: Hostname
+        description: This is the description of Hostname field
   - variable: autoscaling.enabled
     type: boolean
     label: Enable autoscaling

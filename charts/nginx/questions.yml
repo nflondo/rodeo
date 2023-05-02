@@ -14,7 +14,7 @@ questions:
   type: boolean
   label: Enable autoscaling
   show_subquestion_if: true
-  group: "Autoscaling"
+  group: "Services and Load Balancing"
   subquestions:
     - variable: autoscaling.minReplicas
       type: int
